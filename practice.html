@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/stylepractice.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">
+			
+			<div class="container">
+
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="images/logo3.png" alt="Your Logo"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li >
+							<a href="#" id="shows">SHOWS</a>
+						</li>
+						<li >
+							<a href="#" id="movies">MOVIES</a>
+						</li>
+						<li >
+							<a href="#" id="sports">SPORTS</a>
+						</li>
+					</ul>	
+
+					<form class="navbar-form pull-right ">
+						<input type="text" class="form-control" placeholder="Search" id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form><!-- end navbar-form -->
+
+
+
+					<ul class="nav navbar-nav pull-left">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span>Services</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+								</li>
+							</ul><!-- end dropdown-menu -->
+						</li>
+					</ul><!-- end nav pull-left -->  
+
+
+				</div><!-- end nav-collapse -->
+			</div><!-- end container -->
+		</div><!-- end navbar --> 
+
+		<div class="carousel slide" id="myCarousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+
+
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Rise As One</h4>
+						<p>First down to touchdown-That's how we roll!</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Devon Ke Dev...Mahadev</h4>
+						<p></p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>PIRATES OF THE CARIBBEAN</h4>
+						<p>The Curse of the Black Pearl </p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+			</div><!-- carousel-inner -->
+
+
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+		</div><!-- end myCarousel -->
+
+
+
+
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				<h2>Shows Trending now</h2>
+			</div><!-- end col-12 -->
+		</div><!-- end featuresHeading -->
+
+
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel">	
+					<div class="panel-heading">
+						<h3 class="panel-title">Game Of Thrones</h3>
+					</div><!-- end panel-heading -->
+					<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+
+				</div><!-- end panel -->
+			</div><!-- end feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">	
+					<div class="panel-heading">
+						<h3 class="panel-title">SuperNatural</h3>
+					</div><!-- end panel-heading -->
+
+					<img src="images/badge_css3.jpg" alt="HTML5"  class="img-circle">
+
+				</div><!-- end panel -->
+			</div><!-- end feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">	
+					<div class="panel-heading">
+						<h3 class="panel-title">Friends</h3>
+					</div><!-- end panel-heading -->
+					<img src="images/badge_bootstrap.jpg" alt="HTML5"  class="img-circle">
+
+				</div><!-- end panel -->
+			</div><!-- end feature -->
+
+		</div><!-- end features -->
+
+
+
+
+
+
+		<div class="row" id="moreInfo">
+			<div class="col-12">	
+				<h2>Must Watch</h2>
+			</div>  
+		</div>
+
+		<div class="row" id="features1">
+			<div class="col-sm-4 feature">
+				<img src="images/break.jpg" alt="breakbad">
+			</div>
+
+			<div class="col-sm-4 feature">
+				<img src="images/arrow.jpg" alt="arrow">
+			</div>
+
+			<div class="col-sm-4 feature">
+				<img src="images/vampire.jpg" alt="vampire">
+			</div>     
+		</div><!-- end features1 -->	
+
+		<hr>
+
+		<div class="row" id="moreInfo1">
+			<div class="col-sm-6">	
+				<h3>SUBSCRIPTIONS</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Hd Pack</a></li>
+						<li ><a href="#tab2" data-toggle="tab">Non-Hd Pack</a></li>
+					</ul>
+					
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4>HD Channel Subscriptions</h4>
+							<div class="row">
+								<img src="images/starsports.jpg" class="thumbnail col-2 ">
+								<h3 class="col-4">Star Sports <p>(500/month)</p></h3>
+							</div>
+							
+							<hr>
+							
+							<div class="row">
+								<img src="images/starplus.jpg" class="thumbnail col-2">
+								<h3 class="col-4">Star Plus <p>(400/month)</p></h3>
+							</div>
+							
+							<hr>
+
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Subscribe</a>
+
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" data-dismiss="modal">&times;</button>
+
+											<h4 class="modal-title">Subscription form</h4>
+										</div><!-- end modal-header -->
+										<div class="modal-body">
+											
+											
+
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputName">Name</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputName" placeholder="Name" type="text">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+													<div class="col-lg-10">
+														<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+														<button class="btn btn-success pull-right" type="submit">Send!</button>
+													</div>
+												</div>
+											</form>
+										</div><!-- end modal-body -->
+
+										<div class="modal-footer">
+											<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+										</div><!-- end modal-footer -->
+									</div><!-- end modal-content -->
+								</div><!-- end modal-dialog -->
+							</div><!-- end myModal -->
+						</div><!-- end tab-pane -->
+
+						<div class="tab-pane" id="tab2">
+							<h4>Non HD Channel Subsciption</h4>
+
+							<div class="row">
+								<img src="images/zeetv.png" class="thumbnail col-2 ">
+								<h3 class="col-4">Zee Tv <p>(300/month)</p></h3>
+							</div>
+							
+							<hr>
+
+							<div class="row">
+								<img src="images/lifeok.png" class="thumbnail col-2 ">
+								<h3 class="col-4">Life Ok<p>(200/month)</p></h3>
+							</div>
+
+							<hr>
+
+							<a href="#myModal1" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Subscribe</a>
+							
+							<div class="modal fade" id="myModal1">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" data-dismiss="modal">&times;</button>
+											
+											<h4 class="modal-title">Subscription Form</h4>
+										</div><!-- end modal-header -->
+										<div class="modal-body">
+											
+											
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputName">Name</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputName" placeholder="Name" type="text">
+													</div>
+												</div>
+												
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+													</div>
+												</div>
+												
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+													<div class="col-lg-10">
+														<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+														<button class="btn btn-success pull-right" type="submit">Send!</button>
+													</div>
+												</div>
+											</form>
+										</div><!-- end modal-body -->
+										
+										<div class="modal-footer">
+											<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+										</div><!-- end modal-footer -->
+									</div><!-- end modal-content -->
+								</div><!-- end modal-dialog -->
+							</div><!-- end myModal -->
+
+
+							
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location</h4>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62215.99437593067!2d77.58725066831532!3d12.93984796836523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15db35db770d%3A0x3b0592d6402d829a!2sPixel+Softek+Private+Limited!5e0!3m2!1sen!2sin!4v1481267892658" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>	
+
+				<p>Seamless Video Playback - Our adaptive video streaming technology ensures that the best possible video quality is played back automatically based on the available bandwidth, therefore making it a great video experience on both mobile networks as well as WiFi internet connections. Our video is optimized to play on mobile networks with inconsistent throughput so that our users don’t have to compromise on their experience on the low end, and play HD quality video on the top end of bandwidth availability. Additionally, our users can manually select the quality of video that suits their taste.</p>
+				<p>Smart Search - Content search on Hotstar has been optimized to reduce complexity and delay in accessing content. Accurate search results, with lightning fast autocomplete suggestions navigate users to video with minimal navigation friction and ease of use Hot Content Catalogue - Hotstar offers the latest and popular TV, movies and knowledge-based content from India and the world. With content in 8 languages</p>
+			</div><!-- end col-sm-6 -->
+		</div>
+
+
+
+
+		<div class="row" id="moreCourses">
+			<div class="col-12">
+				<h3>TRENDING VIDEOS</h3>
+				<div class="thumbnails row">
+					<div class="col-sm-6">
+						<div class="thumbnail">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/J7_1MU3gDk0" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+						</div><!-- end thumbnail -->
+					</div><!-- end col-sm-6 -->
+
+					<div class="col-sm-6">
+						<div class="thumbnail">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/O65JHeSDhuc" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+						</div><!-- end thumbnail -->
+					</div><!-- end col-sm-6 -->
+				</div><!-- end row -->
+			</div><!-- end col-12 -->
+		</div><!-- end moreCourses -->
+
+
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2013 {Pixel}</h6>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Pixel is an online video streaming platform owned by Novi Digital Entertainment Private Limited, a wholly owned subsidiary of Star India Private Limited. Hotstar currently offers over 50,000 hours of TV content and movies across 8 languages, and every major sport covered live. Highly evolved video streaming technology and a high attention to quality of experience across devices and platforms.</p>
+				</div><!-- end col-sm-4 -->
+
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-2">
+					<h6>Follow Us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by $INGH</h6>
+				</div><!-- end col-sm-2 -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</footer>
+	
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+</body>
+</html>
+
